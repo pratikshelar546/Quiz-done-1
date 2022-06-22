@@ -24,9 +24,13 @@ var questions=[{
   question: "1. What is the HTML tag under which one can write the JavaScript code? \n A) <javascript \n B) <scripted> \nC) <script>\nD) <js> \n",
   answer:"<script>"
 },{
-  question: " Which of the following is the correct syntax to display “GeeksforGeeks” in an alert box using JavaScript? \n  A. alertbox(“GeeksforGeeks”); \n B. msg(“GeeksforGeeks”); \nC. msgbox(“GeeksforGeeks”); \n D. alert(“GeeksforGeeks”); \n",
-  answer:"alert(“GeeksforGeeks”)"
-}]
+  question: " Which of the following is the correct syntax to display “Pratik” in an alert box using JavaScript? \n  A. alertbox(“Pratik”); \n B. msg(“Pratik”); \nC. msgbox(“Pratik”); \n D. alert(“Praik”); \n",
+  answer:"alert(“Pratik”);"
+},
+               {
+                 question:"Which of the following is not web server? \n a).apache tomcat \n b). BlueGriffon \n c). jetty \n D). torando \n",
+                 answer:"BlueGriffon"
+               }]
 
 for(var i=0;i<questions.length;i++){
 var currentquestion = questions[i];
